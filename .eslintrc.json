@@ -17,5 +17,6 @@
     "plugin:jest/recommended",
     "prettier"
   ],
-  "rules": {}
+  "rules": {},
+  "tsconfigRootDir": "__dirname"
 }
