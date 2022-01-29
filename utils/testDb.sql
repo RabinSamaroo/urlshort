@@ -15,6 +15,6 @@ INSERT INTO testtable (shortlink, longlink)
 INSERT INTO testtable (shortlink, longlink)
     VALUES ('bing', 'bong');
 
-SELECT * FROM testtable WHERE shortlink='bing';
+SELECT * FROM testtable WHERE shortlink='foo';
 
 SELECT * FROM testtable;
