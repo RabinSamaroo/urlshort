@@ -8,7 +8,7 @@ app.use(cors());
 
 app.listen(PORT, () => {
   // tslint:disable-next-line:no-console
-  console.log(`️[server] Server is running at http://localhost:${PORT}`);
+  console.log(`[server] Server is running at http://localhost:${PORT}`);
 });
 
 module.exports = app; // for testing
